@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sosyal Kütüphane Üyelik Formu</title>
+    <link rel="stylesheet" href="uyelik.css">
+</head>
+<body>
+    <!-- Sol üstte logo ve başlık -->
+    <div class="header">
+        <img src="file:///C:/Users/beyza/Desktop/ebbSosyalK%C3%BCt%C3%BCphene/logo.png" alt="Eskişehir Büyükşehir Belediyesi Logo" class="logo">
+        <h1>Sosyal Kütüphane Üyelik Formu</h1>
+    </div>
+
+    <!-- Formun kendisi -->
+    <div class="form-container">
+        <form action="#" method="POST" class="membership-form">
+            <label for="tc">TC Kimlik Numarası*</label>
+            <input type="text" id="tc" name="tc" required>
+
+            <label for="birthdate">Doğum Tarihi*</label>
+            <div class="birthdate-fields">
+                <input type="text" id="day" name="day" placeholder="Gün" required>
+                <input type="text" id="month" name="month" placeholder="Ay" required>
+                <input type="text" id="year" name="year" placeholder="Yıl" required>
+            </div>
+
+            <label for="name">Adı-Soyadı*</label>
+            <div class="name-fields">
+                <input type="text" id="firstname" name="firstname" placeholder="Ad" required>
+                <input type="text" id="lastname" name="lastname" placeholder="Soyad" required>
+            </div>
+
+            <label for="phone">Telefon Numarası*</label>
+            <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000" required>
+
+            <label for="email">E-posta</label>
+            <input type="email" id="email" name="email" placeholder="ornek@ornek.com">
+
+            <label for="school">Okuduğu/Mezun Olduğu Okul</label>
+            <input type="text" id="school" name="school">
+
+            <label for="department">Bölüm</label>
+            <input type="text" id="department" name="department">
+
+            <button type="submit" class="submit-button">Formu Gönder</button>
+        </form>
+    </div>
+</body>
+</html>

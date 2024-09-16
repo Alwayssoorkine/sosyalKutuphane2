@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kütüphane Hesabım</title>
+    <link rel="stylesheet" href="uyeHesabi.css">
+</head>
+<body>
+    <!-- Sayfa başlığı ve logo -->
+    <div class="header">
+        <img src="file:///C:/Users/beyza/Desktop/ebbSosyalK%C3%BCt%C3%BCphene/logo.png" alt="Eskişehir Büyükşehir Belediyesi Logo" class="logo">
+        <h1>Kütüphane Hesabım</h1>
+    </div>
+
+    <!-- Kullanıcı bilgileri ve QR kod alanı -->
+    <div class="user-info">
+        <div class="qr-code">
+            <img src="file:///C:/Users/beyza/Desktop/ebbSosyalK%C3%BCt%C3%BCphene/images%20(1).png" alt="QR Kod">
+        </div>
+        <form class="user-details-form">
+            <label for="name">Adı-Soyadı</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="tc">TC Kimlik Numarası</label>
+            <input type="text" id="tc" name="tc">
+            
+            <label for="birthdate">Doğum Tarihi</label>
+            <input type="text" id="birthdate" name="birthdate">
+            
+            <label for="phone">Telefon Numarası</label>
+            <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000">
+            
+            <label for="email">E-posta</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="address">Adres</label>
+            <textarea id="address" name="address"></textarea>
+        </form>
+    </div>
+
+    <!-- Tab menü -->
+    <div class="tabs">
+        <button class="tab-button active">Ödünç Alınanlar</button>
+        <button class="tab-button">Gecikenler</button>
+    </div>
+
+    <!-- Kitap listesi tablosu -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Eser Adı</th>
+                    <th>Yazar</th>
+                    <th>İade Tarihi</th>
+                    <th>Barkod</th>
+                    <th>Yer Numarası</th>
+                    <th>Süresini Uzat</th>
+                    <th>Cezalar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <!-- Daha fazla satır eklenebilir -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

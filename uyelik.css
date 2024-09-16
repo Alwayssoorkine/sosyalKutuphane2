@@ -1,0 +1,89 @@
+/* Genel stil */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header (logo ve başlık) */
+.header {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.logo {
+    width: 80px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* Form container */
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.membership-form label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.membership-form input[type="text"],
+.membership-form input[type="tel"],
+.membership-form input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.membership-form .birthdate-fields,
+.membership-form .name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.membership-form .birthdate-fields input,
+.membership-form .name-fields input {
+    flex: 1;
+}
+
+/* Submit butonu */
+.submit-button {
+    width: 100%;
+    background-color: #b3d9ff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.submit-button:hover {
+    background-color: #99c7ff;
+}

@@ -1,0 +1,100 @@
+/* Genel gövde ayarları */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(file:///C:/Users/beyza/Desktop/ebbSosyalK%C3%BCt%C3%BCphene/OIG3.s.jpeg);
+}
+
+/* Container ayarları */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Logo sol üstte */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    width: 150px; /* Logonun boyutunu ayarlayabilirsin */
+}
+
+/* Kilit simgesi */
+.lock-icon {
+    width: 100px;  /* Genişlik ve yükseklik aynı olacak ki yuvarlak olsun */
+    height: 100px;
+    background-color: white;  /* Arka plan rengi */
+    border-radius: 50%;  /* Yuvarlak şekil oluşturur */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;  /* Ortalamak ve alt boşluk için */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hafif gölge etkisi */
+}
+
+/* Kilit simgesi */
+.lock-icon img {
+    width: 50px;  /* Kilit simgesinin boyutu */
+}
+
+/* Form stili */
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.login-form input::placeholder {
+    color: #999;
+    font-size: 14px;
+}
+
+/* Beyaz butonlar */
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.login-button {
+    background-color: white;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+}
+
+.signup-button {
+    background-color: white;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+}
+
+/* Hover efekti */
+.login-button:hover, .signup-button:hover {
+    background-color: #007BFF;
+    color: white;
+}
